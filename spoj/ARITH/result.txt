@@ -28028,30 +28028,22 @@
 -----------------------------------------------------------
 59110109337578406937404557138939860960815562504097839285009
 
-         2823628 function calls (2823609 primitive calls) in 1.924 seconds
+         70545 function calls (70526 primitive calls) in 0.122 seconds
 
    Ordered by: standard name
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-        1    0.000    0.000    0.000    0.000 pprint.py:35(<module>)
+        1    0.001    0.001    0.001    0.001 pprint.py:35(<module>)
         1    0.000    0.000    0.000    0.000 pprint.py:81(PrettyPrinter)
         1    0.000    0.000    0.001    0.001 re.py:188(compile)
         1    0.000    0.000    0.001    0.001 re.py:229(_compile)
-        1    0.005    0.005    1.924    1.924 solution.py:1(<module>)
-     1200    0.032    0.000    0.065    0.000 solution.py:102(format)
-    22030    0.012    0.000    0.020    0.000 solution.py:108(<genexpr>)
-    27567    0.010    0.000    0.010    0.000 solution.py:23(<genexpr>)
-      396    0.025    0.000    0.035    0.000 solution.py:25(substract)
-     4941    0.002    0.000    0.002    0.000 solution.py:36(<genexpr>)
-     4340    0.002    0.000    0.002    0.000 solution.py:38(<genexpr>)
-      198    0.001    0.000    0.001    0.000 solution.py:41(decrement)
-      421    0.065    0.000    1.711    0.004 solution.py:50(mul)
-  1057409    0.366    0.000    0.366    0.000 solution.py:53(<genexpr>)
-    21619    0.286    0.000    0.311    0.000 solution.py:56(mul_pass)
-      383    0.071    0.000    0.095    0.000 solution.py:7(add)
-      421    0.563    0.001    0.729    0.002 solution.py:72(mul_sum)
-    43124    0.016    0.000    0.016    0.000 solution.py:85(<genexpr>)
-     1200    0.007    0.000    1.916    0.002 solution.py:87(calc)
+        1    0.004    0.004    0.122    0.122 solution.py:1(<module>)
+      396    0.002    0.000    0.002    0.000 solution.py:10(substract)
+      421    0.032    0.000    0.045    0.000 solution.py:13(mul)
+     1200    0.005    0.000    0.114    0.000 solution.py:19(calc)
+     1200    0.027    0.000    0.057    0.000 solution.py:34(format)
+    22030    0.011    0.000    0.019    0.000 solution.py:40(<genexpr>)
+      383    0.002    0.000    0.002    0.000 solution.py:7(add)
         3    0.000    0.000    0.000    0.000 sre_compile.py:178(_compile_charset)
         3    0.000    0.000    0.000    0.000 sre_compile.py:207(_optimize_charset)
        14    0.000    0.000    0.000    0.000 sre_compile.py:24(_identityfunction)
@@ -28079,25 +28071,21 @@
         6    0.000    0.000    0.000    0.000 sre_parse.py:90(__init__)
         1    0.000    0.000    0.000    0.000 {_sre.compile}
      1200    0.001    0.000    0.001    0.000 {built-in method groups}
-     1200    0.004    0.000    0.004    0.000 {built-in method match}
+     1200    0.003    0.000    0.003    0.000 {built-in method match}
        23    0.000    0.000    0.000    0.000 {isinstance}
-1235420/1235417    0.110    0.000    0.110    0.000 {len}
-    45069    0.015    0.000    0.015    0.000 {max}
-   237310    0.036    0.000    0.036    0.000 {method 'append' of 'list' objects}
-      421    0.001    0.000    0.001    0.000 {method 'clear' of 'dict' objects}
+6931/6928    0.001    0.000    0.001    0.000 {len}
+      421    0.013    0.000    0.013    0.000 {map}
+     2400    0.001    0.000    0.001    0.000 {max}
+     2890    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
-      416    0.005    0.000    0.025    0.000 {method 'extend' of 'list' objects}
+      416    0.005    0.000    0.024    0.000 {method 'extend' of 'list' objects}
         1    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
-    21619    0.003    0.000    0.003    0.000 {method 'has_key' of 'dict' objects}
         1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
-    22819    0.262    0.000    0.657    0.000 {method 'join' of 'str' objects}
-      396    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
      1201    0.002    0.000    0.002    0.000 {method 'readline' of 'file' objects}
         3    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
-    26830    0.011    0.000    0.011    0.000 {method 'rjust' of 'str' objects}
+    26830    0.010    0.000    0.010    0.000 {method 'rjust' of 'str' objects}
      1201    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
-      383    0.000    0.000    0.000    0.000 {method 'zfill' of 'str' objects}
-    42681    0.011    0.000    0.011    0.000 {min}
+       12    0.000    0.000    0.000    0.000 {min}
         7    0.000    0.000    0.000    0.000 {ord}
         2    0.000    0.000    0.000    0.000 {range}
 
